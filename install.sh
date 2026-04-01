@@ -5,7 +5,7 @@
 # Ganti YOUR_USERNAME/YOUR_REPO_NAME dengan nama repo Anda!
 # ========================================================
 
-REPO="YOUR_USERNAME/YOUR_REPO_NAME"
+REPO="suparli/serial-term"
 APP_NAME="serial-term"
 INSTALL_DIR="/usr/local/bin"
 

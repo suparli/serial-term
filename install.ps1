@@ -3,7 +3,7 @@
 # Ganti YOUR_USERNAME/YOUR_REPO_NAME dengan nama repo Anda!
 # ========================================================
 
-$Repo = "YOUR_USERNAME/YOUR_REPO_NAME"
+$Repo = "suparli/serial-term"
 $AppName = "serial-term"
 $FileName = "serial-term.exe"
 $InstallDir = "$env:LOCALAPPDATA\$AppName\bin"
