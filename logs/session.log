@@ -1,0 +1,1601 @@
+[System] Berhasil dimuat. Auto-Save log sedang berjalan ('logs/session.log').
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[System] Connection Established.
+[16:14:29.080] [234598]Successfully deactivated PDP context
+
+[16:14:31.164] [236638]Failed to activate PDP context
+[236681]Successfully activated PDP context
+
+[16:14:33.098] [238620]DNS configuration failed
+
+[16:14:37.118] [242641]Resolving domain name...
+
+> [Di-klik lewat Macro Panel] password
+[16:14:40.148] [245666]Domain name resolution failed
+
+[16:14:45.158] [250688]Domain name resolution failed
+
+[16:14:50.193] [255709]Domain name resolution failed
+
+[16:14:55.270] [260731]Domain name resolution failed
+
+> AT+QSW
+[16:15:00.233] [265751]Domain name resolution failed
+
+[16:15:05.242] [270772]Domain name resolution failed
+
+[16:15:10.330] [275792]Domain name resolution failed
+
+[16:15:11.333] [276831]Restart the module...
+[276864]No response when shutting down
+
+[16:15:15.097] [280592]Closing NB module...
+[280625]NB module power-off successful.
+
+> AT+QSW
+[16:15:34.491] [300031]power on
+
+OK
+
+
+RDY
+
+[16:15:35.587] C�AA�RDY
+
+> AT+CFUN?
+[16:15:43.507] AT+CFUN?
++CFUN: 1
+
+OK
+
+> AT+CPIN?
+[16:15:49.626] AT+CPIN?
++CPIN: READY
+
+OK
+
+> AT+COPS?
+[16:15:59.016] AT+COPS?
++COPS: 0
+
+OK
+
+> AT+CEREG/
+[16:16:10.026] AT+CEREG/
+ERROR
+
+> AT+CEREG?
+[16:16:14.434] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+CFUN=1,1
+[16:16:26.630] AT+CFUN=1,1
+OK
+
+[16:16:29.585] C!*T�
+C�AA�RDY
+
+> AT+CTZR=0
+[16:16:45.200] AT+CTZR=0
+OK
+
+> AT+CTZU=1
+[16:16:54.619] AT+CTZU=1
+OK
+
+> AT+QCFG="iotopmode",0,1
+[16:17:02.013] AT+QCFG="iotopmode",0,1
+OK
+
+> AT+QCFG="nwscanmode",0,1
+[16:17:09.108] AT+QCFG="nwscanmode",0,1
+ERROR
+
+> AT+QICSGP=1,1,"NB1INTERNET","","",0
+[16:17:21.169] AT+QICSGP=1,1,"NB1INTERNET","","",0
+OK
+
+> AT+QIACT=1
+[16:17:30.708] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:17:41.388] AT+QIACT=1
+ERROR
+
+> AT+CSQ
+[16:17:49.457] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:17:59.312] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:02.238] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:04.578] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:06.961] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:09.168] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:11.491] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:13.711] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:18:16.695] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CEREG?
+[16:18:28.981] AT+CEREG?
++CEREG: 0,0
+
+OK
+
+> AT+CFUN=1,1
+[16:18:39.796] AT+CFUN=1,1
+OK
+
+[16:18:41.461] [487019]Password timeout
+
+
+[16:18:43.545] C!*T�
+C�AA�RDY
+
+> [Di-klik lewat Macro Panel] password
+[16:18:44.940] [490497]Password Correct
+
+> AT+CEREG?
+[16:18:53.551] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+CSQ
+[16:18:57.751] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:19:00.450] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:19:02.789] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+QCFG="iotopmode",3,1
+[16:19:54.329] AT+QCFG="iotopmode",3,1
+ERROR
+
+> AT+QCFG="iotopmode",1,1
+[16:20:03.360] AT+QCFG="iotopmode",1,1
+OK
+
+> AT+QCFG="nwscanseq",03,1
+[16:20:19.647] AT+QCFG="nwscanseq",03,1
+OK
+
+> AT+CSQ
+[16:20:28.828] AT+CSQ
++CSQ: 6,99
+
+OK
+
+> AT+QICSGP=1,1,"NB1INTERNET","","",0
+[16:20:41.741] AT+QICSGP=1,1,"NB1INTERNET","","",0
+OK
+
+> AT+QIACT=1
+> AT+CFUN=1,1
+> AT+CSQ
+> AT+CSQ
+[16:22:17.456] AT+CSQ
++CSQ: 7,99
+
+OK
+
+> AT+QICSGP=1,1,"M2MINTERNET","","",0
+[16:22:40.540] AT+QICSGP=1,1,"M2MINTERNET","","",0
+OK
+
+> AT+QIACT=1
+[16:22:50.124] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:22:55.584] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:22:58.315] AT+QIACT=1
+ERROR
+
+> AT+CFUN=1,1
+[16:23:05.245] AT+CFUN=1,1
+OK
+
+[16:23:08.606] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+> AT+CSQ
+[System] Cannot send: Not connected.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[System] Keyboard Shortcut (F6) Ditekan - Toggle Koneksi
+[System] Berhasil dimuat. Auto-Save log sedang berjalan ('logs/session.log').
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 0 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 0 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 0 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[System] Connection Established.
+[16:25:45.948] [911535]Domain name resolution failed
+
+> [Di-klik lewat Macro Panel] password
+> [Di-klik lewat Macro Panel] password
+[16:25:51.071] [916554]Domain name resolution failed
+
+[16:25:56.084] [921575]Domain name resolution failed
+
+[16:26:01.105] [926595]Domain name resolution failed
+
+[16:26:02.088] [927632]Restart the module...
+[927666]No response when shutting down
+
+[16:26:05.963] [931393]Closing NB module...
+[931425]NB module power-off successful.
+[931469]Password Incorrect
+
+> AT+CSQ
+[16:26:09.077] [934671]Password Incorrect
+
+> [Di-klik lewat Macro Panel] password
+[16:26:10.937] [936531]Password Correct
+
+> [Di-klik lewat Macro Panel] password
+> AT+CFUN=1,1
+> AT+QSW
+[16:26:30.214] [955689]power on
+
+OK
+
+
+RDY
+
+[16:26:31.157] C�AA�RDY
+
+> AT+CSQ
+[16:26:37.878] AT+CSQ
++CSQ: 16,99
+
+OK
+
+> AT+QIACT=1
+[16:26:46.458] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:26:49.848] AT+QIACT=1
+ERROR
+
+> AT+CFUN=1,1
+[16:26:53.747] AT+CFUN=1,1
+OK
+
+[16:26:57.270] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:26:58.938] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:27:02.243] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+QIACT=1
+[16:27:12.978] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:27:16.248] AT+QIACT=1
+ERROR
+
+> AT+QICSGP=1,1,"internet","","",0
+[16:27:57.394] AT+QICSGP=1,1,"internet","","",0
+OK
+
+> AT+CFUN=1,1
+[16:28:01.698] AT+CFUN=1,1
+OK
+
+[16:28:05.252] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:28:08.135] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:28:10.608] AT+CSQ
++CSQ: 16,99
+
+OK
+
+> AT+QIACT=1
+> AT+CSQ
+[16:29:27.847] AT+CSQ
++CSQ: 15,99
+
+OK
+
+> AT+CGDCONT?
+[16:29:46.088] AT+CGDCONT?
++CGDCONT: 1,"IP","internet","0.0.0.0",0,0,0
+
+OK
+
+> AT+QIACT=1
+[16:30:12.039] AT+QIACT=1
+ERROR
+
+> AT+QIACT=0
+[16:30:17.215] AT+QIACT=0
+ERROR
+
+> AT+CSQ
+[16:30:23.109] AT+CSQ
++CSQ: 15,99
+
+OK
+
+> AT+QICSGP=1,1,"nb-iot","","",0
+[16:30:38.664] AT+QICSGP=1,1,"nb-iot","","",0
+OK
+
+> AT+CFUN=1,1
+[16:30:44.619] AT+CFUN=1,1
+OK
+
+[16:30:48.243] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:30:59.365] AT+CSQ
++CSQ: 16,99
+
+OK
+
+> AT+QIACT=1
+[16:31:04.900] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:31:07.480] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:31:09.955] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:31:10.809] [1236394]Password timeout
+
+[1236424]Password Incorrect
+
+> [Di-klik lewat Macro Panel] password
+[16:31:15.730] [1241350]Password Correct
+
+> [Di-klik lewat Macro Panel] password
+> AT+CTZU=1
+[16:31:33.805] AT+CTZU=1
+OK
+
+> AT+CFUN=1,1
+[16:31:52.901] AT+CFUN=1,1
+OK
+
+> AT+CSQ
+[16:31:56.950] AT+CSQ
++CSQ: 99,99
+
+OK
+
+APP RDY
+
+> AT+CSQ
+[16:31:59.621] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:02.170] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:04.480] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:06.791] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:09.054] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:11.261] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CFUN=1,1
+[16:32:15.760] AT+CFUN=1,1
+OK
+
+[16:32:19.236] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:32:23.832] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:32:26.290] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+COPS?
+[16:32:45.701] AT+COPS?
++COPS: 0
+
+OK
+
+> AT+COPS=?
+> AT+COPS?
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CFUN=1,1
+> AT+CFUN=1,1
+> AT+CFUN=1,1
+> AT+CFUN=1,1
+> AT+CFUN=1,1
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT?
+[16:35:36.169] [1501567]
+AT+<CMD>?        : Help on <CMD>
+AT+<CMD>         : Run <CMD>
+AT+<CMD>=<value> : Set the value
+AT+<CMD>=?       : Get the value
+
+AT+MODEL   : Get module information
+ATZ        : Trig a reset of the MCU
+AT+DEUI    : Get or set the Devic
+[16:35:36.424] e ID
+AT+SLEEP    : Get or set the sleep status
+AT+DEBUG    : Set more info output
+AT+PWORD   : Get or set the System password
+AT+FDR1     : Reset parameters to factory default values except for passwords
+AT+FDR     : Reset Parameters to Factory Def
+[16:35:36.694] ault
+AT+SERVADDR: Get or Set the Server address
+AT+CLIENT  : Get or Set the MQTT clientID
+AT+UNAME   : Get or Set the MQTT Username
+AT+PWD     : Get or Set the MQTT password
+AT+PUBTOPIC: Get or set MQTT publishing topic
+AT+SUBTOPIC: Get or set MQT
+[16:35:36.948] T subscription topic
+AT+TDC     : Get or set the application data transmission interval in s
+AT+APN     : Get or set the APN
+AT+3V3T     : Get or Set extend the time of 3V3 power
+AT+5VT     : Get or Set extend the time of 5V power
+AT+12VT     : Get
+[16:35:37.218]  or Set extend the time of 12V power
+AT+PROBE     : Get or Set the probe model
+AT+PRO     : Get or Set usage agreement (1:COAP,2:UDP,3:MQTT,4:TCP)
+AT+RXDL    : Get or Set the receiving time
+AT+CDP     : Read or Clear cached data
+AT+LDATA   : Get th
+[16:35:37.489] e last upload data
+AT+GETSENSORVALUE     : Returns the current sensor measurement
+AT+DNSCFG  : Get or Set DNS Server
+AT+CSQTIME  : Get or Set the time to join the network 
+AT+BKDNS  : Get or Set dynamic domain name resolution IP 
+AT+GDNS  : Get or 
+[16:35:37.759] Set the DNS 
+AT+TLSMOD  : Get or Set the TLS mode 
+AT+MQOS  : Set the QoS level of MQTT
+AT+IPTYPE  : Set the IPv4 or IPv6
+AT+URI1: Get or set CoAP option 1
+AT+URI2: Get or set CoAP option 2
+AT+URI3: Get or set CoAP option 3
+AT+URI4: Get or set Co
+[16:35:38.014] AP option 4
+AT+URI5: Get or set CoAP option 5
+AT+URI6: Get or set CoAP option 6
+AT+URI7: Get or set CoAP option 7
+AT+URI8: Get or set CoAP option 8
+AT+INTMOD  : Get or Set the trigger interrupt mode (0:input,1:falling or rising,2:falling,3:rising)
+[16:35:38.284] 
+AT+CLOCKLOG: Enable or Disable Clock Logging
+AT+GETLOG  : Print serial port logs
+AT+TIMESTAMP  : Get or Set UNIX timestamp in second
+AT+CFG     : Print all settings
+AT+DOWNTE: Get or set the conversion between the standard version and 1T version do
+[16:35:38.539] wnlinks
+AT+QSW  : Power on and power off BG95 module
+AT+GNSST  : Extend the time to turn on GNSS
+AT+GPS  : Turn off and on GPS
+AT+GTDC     : Get or set GPS positioning interval in units of h
+AT+QBAND: Get or set Frequency Band
+AT+IOTMOD: Configure
+[16:35:38.643]  Network Category to be Searched for under LTE RAT
+AT+ROC  : Get or set threshold alarm
+
+OK
+
+
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+CSQ
+> AT+QSW
+[16:36:14.456] [1539958]power off
+
+OK
+
+
++CME ERROR: 100
+
+NORMAL POWER DOWN
+
+> AT+QSW
+[16:36:22.219] [1547745]power on
+
+OK
+
+
+RDY
+
+[16:36:23.043] [1548679]Password timeout
+
+C�AA�RDY
+
+> [Di-klik lewat Macro Panel] password
+[16:36:27.497] [1553145]Password Correct
+
+> AT+CSQ
+[16:36:30.303] AT+CSQ
++CSQ: 16,99
+
+OK
+
+> AT+COPS?
+[16:36:36.918] AT+COPS?
++COPS: 0
+
+OK
+
+> AT+COPS?
+[16:36:41.162] AT+COPS?
++COPS: 0
+
+OK
+
+> AT+COPS?
+[16:36:43.788] AT+COPS?
++COPS: 0
+
+OK
+
+> AT+QIACT=1
+[16:36:52.322] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:36:55.653] AT+QIACT=1
+ERROR
+
+> AT+QICSGP=1,1,"iot","","",0
+[16:37:28.609] AT+QICSGP=1,1,"iot","","",0
+OK
+
+> AT+CFUN=1,1
+[16:37:34.159] AT+CFUN=1,1
+OK
+
+[16:37:37.130] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:37:41.420] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[16:37:44.298] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+QIACT=1
+[16:37:48.469] AT+QIACT=1
+ERROR
+
+> AT+CSQ
+[16:37:52.113] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+QIACT=1
+[16:37:57.048] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[16:37:59.957] AT+QIACT=1
+ERROR
+
+> AT+QICSGP=1,1,"M2MINTERNET","","",0
+[16:39:09.681] AT+QICSGP=1,1,"M2MINTERNET","","",0
+OK
+
+> AT+CFUN=1,1
+[16:39:13.746] AT+CFUN=1,1
+OK
+
+[16:39:17.124] C!*T�
+C�AA�RDY
+
+> AT+CSQ
+[16:39:30.036] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+QIACT=1
+> AT+CSQ
+[16:40:50.228] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+QIACT=1
+[16:40:53.739] AT+QIACT=1
+ERROR
+
+> AT+QIGETERROR
+[16:40:57.594] AT+QIGETERROR
++QIGETERROR: 561,activate pdp context failed
+
+OK
+
+[16:41:29.415] [1855000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[16:41:43.496] [1869170]Password Correct
+
+> [Di-klik lewat Macro Panel] password
+> AT+CFUN=1,1
+[16:41:50.516] AT+CFUN=1,1
+OK
+
+[16:41:54.093] C!*T�
+C�AA�RDY
+
+> AT+CEREG?
+[16:42:01.181] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+CSQ
+[16:42:07.945] AT+CSQ
++CSQ: 17,99
+
+OK
+
+> AT+CEREG?
+[16:42:12.401] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+QICSGP=1,1,"M2MINTERNET","","",0
+[16:42:38.097] AT+QICSGP=1,1,"M2MINTERNET","","",0
+OK
+
+> AT+CSQ
+[16:43:12.043] AT+CSQ
++CSQ: 16,99
+
+OK
+
+> AT+CEREG?
+[16:43:15.958] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEER
+[16:44:27.091] AT+CEER
+ERROR
+
+> AT+CEER
+[16:44:30.031] AT+CEER
+ERROR
+
+> AT+CEER
+[16:44:40.623] AT+CEER
+ERROR
+
+> AT+QIGETERROR
+[16:44:55.741] AT+QIGETERROR
++QIGETERROR: 0,operate successfully
+
+OK
+
+> AT+QIACT=1
+[16:45:09.423] AT+QIACT=1
+ERROR
+
+> AT+QCFG="emmcause"
+[16:45:31.548] AT+QCFG="emmcause"
++QCFG: "emmcause",15
+
+OK
+
+> AT+QCFG="esmcause"
+[16:45:48.439] AT+QCFG="esmcause"
+ERROR
+
+[System] Berhasil dimuat. Auto-Save log sedang berjalan ('logs/session.log').
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[System] Connection Established.
+[09:47:45.265] [95581]Domain name resolution failed
+
+[09:47:50.291] [100602]Domain name resolution failed
+
+[09:47:50.324] AT+PWRM2
+
+[09:47:50.391] AT+PWRM2
+
+[09:47:51.530] [101863]Restart the module...
+[101896]No response when shutting down
+
+[09:47:55.388] [105625]Closing NB module...
+[105657]NB module power-off successful.
+
+[09:47:59.424] [109688]Password Incorrect
+
+OK
+
++QIURC: "dnsgip",561
+
+NORMAL POWER DOWN
+
+RDY
+
+[09:48:00.395] [110776]NB module is initializing...
+
+[09:48:09.774] [120072]NBIOT has responded.
+
+[09:48:11.032] [121400]Echo mode turned off successfully.
+
+[09:48:12.382] [122743]Model information:BG95-M2.
+
+[09:48:13.702] [124077]The IMEI number is:860548049976639.
+
+[09:48:15.051] [125420]The IMSI number is:510109790975972.
+
+[09:48:16.596] [126964]Frequency band configuration successful.
+
+[09:48:18.156] [128512]Configure Network Category to be Searched for under LTE RAT.
+
+[09:48:19.716] [130082]Set the data format for sending and receiving.
+
+[09:48:21.052] [131437]Set APN successfully
+
+[09:48:22.371] [132766]Signal Strength:5
+
+[09:48:28.779] [139079]Network Information:"NBIoT","51010","LTE BAND 8",3554
+
+[09:48:30.277] [140640]Successfully configured parameters for TCP/IP context
+
+[09:48:31.836] [142203]Successfully deactivated PDP context
+
+[09:48:33.970] [144244]Failed to activate PDP context
+[144287]Successfully activated PDP context
+
+[09:48:35.841] [146227]DNS configuration failed
+
+[09:49:21.778] [192103]Resolving domain name...
+
+[09:49:24.807] [195127]Domain name resolution failed
+
+[09:49:29.816] [200148]Domain name resolution failed
+
+[09:49:34.858] [205168]Domain name resolution failed
+
+[09:49:39.868] [210187]Domain name resolution failed
+
+[09:49:44.878] [215205]Domain name resolution failed
+
+[09:49:49.905] [220220]Domain name resolution failed
+
+[09:49:54.928] [225238]Domain name resolution failed
+
+[09:49:55.915] [226275]Restart the module...
+[226308]No response when shutting down
+
+[09:49:59.761] [230034]Closing NB module...
+[230066]NB module power-off successful.
+
+[09:50:03.821] 
+OK
+
++QIURC: "dnsgip",561
+
+NORMAL POWER DOWN
+
+RDY
+
+[09:50:04.766] [235149]NB module is initializing...
+
+[09:50:14.111] [244445]NBIOT has responded.
+
+[09:50:15.389] [245773]Echo mode turned off successfully.
+
+[09:50:16.720] [247115]Model information:BG95-M2.
+
+[09:50:18.070] [248448]The IMEI number is:860548049976639.
+
+[09:50:19.465] [249790]The IMSI number is:510109790975972.
+
+[09:50:20.950] [251331]Frequency band configuration successful.
+
+[09:50:22.525] [252878]Configure Network Category to be Searched for under LTE RAT.
+
+[09:50:24.070] [254446]Set the data format for sending and receiving.
+
+[09:50:25.390] [255799]Set APN successfully
+
+[09:50:26.725] [257126]Signal Strength:6
+
+[09:50:33.133] [263435]Network Information:"NBIoT","51010","LTE BAND 8",3554
+
+[09:50:34.630] [264995]Successfully configured parameters for TCP/IP context
+
+[09:50:36.175] [266555]Successfully deactivated PDP context
+
+[09:50:38.323] [268596]Failed to activate PDP context
+[268638]Successfully activated PDP context
+
+[09:50:40.180] [270577]DNS configuration failed
+
+> AT+QSW
+> [Di-klik lewat Macro Panel] password
+> [Di-klik lewat Macro Panel] password
+[09:51:26.056] [316399]Password Incorrect
+
+> [Di-klik lewat Macro Panel] password
+> [Di-klik lewat Macro Panel] password
+> [Di-klik lewat Macro Panel] password
+[09:51:35.042] [325388]Password Correct
+
+[09:51:42.046] [332384]Resolving domain name...
+
+[09:51:45.077] [335408]Domain name resolution failed
+
+> AT+QSW
+[09:51:50.101] [340426]Domain name resolution failed
+
+[09:51:55.111] [345445]Domain name resolution failed
+
+[09:52:00.121] [350463]Domain name resolution failed
+
+[09:52:05.147] [355482]Domain name resolution failed
+
+[09:52:10.170] [360500]Domain name resolution failed
+
+[09:52:15.181] [365518]Domain name resolution failed
+
+[09:52:16.213] [366555]Restart the module...
+[366588]No response when shutting down
+
+[09:52:19.949] [370315]Closing NB module...
+[370346]NB module power-off successful.
+
+[09:52:24.078] [374375]power on
+
+OK
+
+
+OK
+
++QIURC: "dnsgip",561
+
+NORMAL POWER DOWN
+
+RDY
+
+[09:52:25.663] C�AA�RDY
+
+> AT+QSW
+[09:52:37.709] [388041]power off
+
+OK
+
+
+NORMAL POWER DOWN
+
+> AT+QSW
+[09:52:46.140] [396491]power on
+
+OK
+
+
+RDY
+
+[09:52:47.563] C�AA�RDY
+
+> AT+GMM
+[09:52:55.919] AT+GMM
+BG95-M2
+
+OK
+
+> AT+QCFG="band"?
+[09:53:46.517] AT+QCFG="band"?
+ERROR
+
+> AT+QCFG="band"
+[09:53:50.492] AT+QCFG="band"
++QCFG: "band",0x0,0x100002000000000f0e189f,0x10004200000000090e189f
+
+OK
+
+> AT+COPS=?
+> AT?
+[09:55:44.845] [575045]
+AT+<CMD>?        : Help on <CMD>
+AT+<CMD>         : Run <CMD>
+AT+<CMD>=<value> : Set the value
+AT+<CMD>=?       : Get the value
+
+AT+MODEL   : Get module information
+ATZ        : Trig a reset of the MCU
+AT+DEUI    : Get or set the Device
+[09:55:45.144]  ID
+AT+SLEEP    : Get or set the sleep status
+AT+DEBUG    : Set more info output
+AT+PWORD   : Get or set the System password
+AT+FDR1     : Reset parameters to factory default values except for passwords
+AT+FDR     : Reset Parameters to Factory Defa
+[09:55:45.386] ult
+AT+SERVADDR: Get or Set the Server address
+AT+CLIENT  : Get or Set the MQTT clientID
+AT+UNAME   : Get or Set the MQTT Username
+AT+PWD     : Get or Set the MQTT password
+AT+PUBTOPIC: Get or set MQTT publishing topic
+AT+SUBTOPIC: Get or set MQTT
+[09:55:45.641]  subscription topic
+AT+TDC     : Get or set the application data transmission interval in s
+AT+APN     : Get or set the APN
+AT+3V3T     : Get or Set extend the time of 3V3 power
+AT+5VT     : Get or Set extend the time of 5V power
+AT+12VT     : Get 
+[09:55:45.911] or Set extend the time of 12V power
+AT+PROBE     : Get or Set the probe model
+AT+PRO     : Get or Set usage agreement (1:COAP,2:UDP,3:MQTT,4:TCP)
+AT+RXDL    : Get or Set the receiving time
+AT+CDP     : Read or Clear cached data
+AT+LDATA   : Get the
+[09:55:46.182]  last upload data
+AT+GETSENSORVALUE     : Returns the current sensor measurement
+AT+DNSCFG  : Get or Set DNS Server
+AT+CSQTIME  : Get or Set the time to join the network 
+AT+BKDNS  : Get or Set dynamic domain name resolution IP 
+AT+GDNS  : Get or S
+[09:55:46.452] et the DNS 
+AT+TLSMOD  : Get or Set the TLS mode 
+AT+MQOS  : Set the QoS level of MQTT
+AT+IPTYPE  : Set the IPv4 or IPv6
+AT+URI1: Get or set CoAP option 1
+AT+URI2: Get or set CoAP option 2
+AT+URI3: Get or set CoAP option 3
+AT+URI4: Get or set CoA
+[09:55:46.706] P option 4
+AT+URI5: Get or set CoAP option 5
+AT+URI6: Get or set CoAP option 6
+AT+URI7: Get or set CoAP option 7
+AT+URI8: Get or set CoAP option 8
+AT+INTMOD  : Get or Set the trigger interrupt mode (0:input,1:falling or rising,2:falling,3:rising)
+
+[09:55:46.976] AT+CLOCKLOG: Enable or Disable Clock Logging
+AT+GETLOG  : Print serial port logs
+AT+TIMESTAMP  : Get or Set UNIX timestamp in second
+AT+CFG     : Print all settings
+AT+DOWNTE: Get or set the conversion between the standard version and 1T version dow
+[09:55:47.232] nlinks
+AT+QSW  : Power on and power off BG95 module
+AT+GNSST  : Extend the time to turn on GNSS
+AT+GPS  : Turn off and on GPS
+AT+GTDC     : Get or set GPS positioning interval in units of h
+AT+QBAND: Get or set Frequency Band
+AT+IOTMOD: Configure 
+[09:55:47.349] Network Category to be Searched for under LTE RAT
+AT+ROC  : Get or set threshold alarm
+
+OK
+
+
+[09:57:14.628] [665000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[09:57:17.985] [668422]Password Correct
+
+> [Di-klik lewat Macro Panel] password
+> AT+CFUN=1,1
+[09:57:25.802] C���
+5�B�bJ9�TELKOMSEL","T-SEL","51010",9),,(0,1,2,3,4),(0,1,2)
+
+OK
+> AT+QSCAN=3,1
+[09:58:51.066] AT+QSCAN=3,1
+ERROR
+
+> AT+CFUN=1,1
+[09:58:58.311] AT+CFUN=1,1
+OK
+
+[09:59:01.614] C!*T�
+C�AA�RDY
+
+> AT+QSCAN=3,1
+[09:59:07.311] AT+QSCAN=3,1
+ERROR
+
+> AT+QNWINFO
+[09:59:23.977] AT+QNWINFO
++QNWINFO: "NBIoT","51010","LTE BAND 8",3554
+
+OK
+
+> AT+COPS=?
+[10:02:14.603] [965000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[10:02:18.678] [969142]Password Correct
+
+[10:03:33.318] AT+COPS=?C���
+5�B�bJ9�TELKOMSEL","T-SEL","51010",9),,(0,1,2,3,4),(0,1,2)
+
+OK
+[10:07:14.517] [1265000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[10:08:04.840] [1315335]Password Correct
+
+> [Di-klik lewat Macro Panel] password
+> AT+GSN
+[10:09:05.949] AT+GSN
+860548049976639
+
+OK
+
+> AT+EGMR=1,7,"869181079408413"
+[10:09:57.805] AT+EGMR=1,7,"869181079408413"
+OK
+
+> AT+CFUN=1,1
+[10:10:04.209] AT+CFUN=1,1
+OK
+
+[10:10:07.571] C!*T�
+C�AA�RDY
+
+> AT+GSN
+[10:10:13.764] AT+GSN
+869181079408413
+
+OK
+
+> AT+QIACT=1
+[10:10:25.269] AT+QIACT=1
+ERROR
+
+> AT+CSQ
+[10:10:32.798] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[10:10:39.323] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[10:10:41.904] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[10:10:44.274] AT+CSQ
++CSQ: 99,99
+
+OK
+
+> AT+CSQ
+[10:11:11.124] AT+CSQ
++CSQ: 6,99
+
+OK
+
+> AT+QIACT=1
+[10:11:14.874] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[10:11:18.698] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[10:11:21.037] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[10:11:23.423] AT+QIACT=1
+ERROR
+
+> AT+QIGETERROR
+[10:11:37.958] AT+QIGETERROR
++QIGETERROR: 561,activate pdp context failed
+
+OK
+
+> AT+QICSGP=1,1,"M2MINTERNET","","",0
+[10:12:01.223] AT+QICSGP=1,1,"M2MINTERNET","","",0
+OK
+
+> AT+QIACT=1
+[10:12:05.572] AT+QIACT=1
+ERROR
+
+[10:13:24.534] [1635000]Password timeout
+
+
+> AT+QCFG="fplmn_list",0
+[10:13:49.116] [1659645]Password Incorrect
+
+> [Di-klik lewat Macro Panel] password
+[10:13:51.472] [1661998]Password Correct
+
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Disconnected.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[System] Connection Established.
+> AT+QCFG="fplmn_list",0
+[10:15:09.424] AT+QCFG="fplmn_list",0
+ERROR
+
+> AT+CGDCONT=1,"IP","M2MINTERNET"
+[10:15:47.643] AT+CGDCONT=1,"IP","M2MINTERNET"
+OK
+
+> AT+QICSGP=1,1,"M2MINTERNET","","",0
+[10:16:05.717] AT+QICSGP=1,1,"M2MINTERNET","","",0
+OK
+
+> AT+CEREG?
+[10:16:15.843] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEREG?
+[10:16:27.093] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEREG?
+[10:16:29.555] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEREG?
+[10:16:31.758] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEREG?
+[10:16:34.008] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CFUN=1,1
+[10:16:40.113] AT+CFUN=1,1
+OK
+
+[10:16:43.487] C!*T�
+C�AA�RDY
+
+> AT+QIDEACT=1
+[10:17:05.207] AT+QIDEACT=1
+OK
+
+> AT+QIACT=1
+[10:17:13.292] AT+QIACT=1
+ERROR
+
+> AT+QIACT=1
+[10:18:23.836] AT+QIACT=1
+ERROR
+
+> AT+CSQ
+[10:18:31.874] AT+CSQ
++CSQ: 5,99
+
+OK
+
+[10:18:54.545] [1965000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[10:20:13.559] [2043850]Password Correct
+
+> AT+CPIN?
+[10:20:16.770] AT+CPIN?
++CPIN: READY
+
+OK
+
+> AT+CEREG?
+[10:20:25.619] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CFUN=0
+[10:25:00.179] AT+CFUN=0
+OK
+
+> AT+QCFG="iotopmode",1
+[10:25:06.972] AT+QCFG="iotopmode",1
+OK
+
+> AT+QCFG="nwscanmode",3
+[10:25:11.397] AT+QCFG="nwscanmode",3
+ERROR
+
+[10:25:14.412] [2345000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[10:25:17.487] [2348074]Password Correct
+
+> AT+QCFG="nwscanmode",3
+[10:25:27.656] AT+QCFG="nwscanmode",3
+ERROR
+
+> AT+QCFG="band",0,0,80,1
+[10:25:34.481] AT+QCFG="band",0,0,80,1
+OK
+
+> AT+CGDCONT=1,"IP","M2MINTERNET"
+[10:25:40.908] AT+CGDCONT=1,"IP","M2MINTERNET"
+OK
+
+> AT+CFUN=1
+[10:25:47.201] AT+CFUN=1
+OK
+
+> AT+CEREG?
+[10:26:07.106] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+CSQ
+[10:26:55.508] AT+CSQ
++CSQ: 5,99
+
+OK
+
+> AT+CEREG?
+[10:26:58.765] AT+CEREG?
++CEREG: 0,3
+
+OK
+
+> AT+CEREG=2
+[10:27:21.112] AT+CEREG=2
+OK
+
+> AT+CEREG?
+[10:27:26.828] AT+CEREG?
++CEREG: 2,3
+
+OK
+
+> AT+QNWINFO
+[10:27:34.253] AT+QNWINFO
++QNWINFO: "NBIoT","51010","LTE BAND 8",3554
+
+OK
+
+> AT+QENG="servingcell"
+[10:27:41.528] AT+QENG="servingcell"
++QENG: "servingcell","SEARCH"
+
+OK
+
+> AT+CFUN=0
+[10:29:30.695] AT+CFUN=0
+OK
+
+> AT+QCFG="iotopmode",0
+[10:29:35.555] AT+QCFG="iotopmode",0
+OK
+
+> AT+CFUN=1
+[10:29:40.069] AT+CFUN=1
+OK
+
+> AT+CGDCONT=1,"IP","internet"
+[10:29:46.849] AT+CGDCONT=1,"IP","internet"
+OK
+
+> AT+CFUN=1,1
+[10:29:52.640] AT+CFUN=1,1
+OK
+
+[10:29:55.429] C!*T�
+C�AA�RDY
+
+[10:30:14.453] [2645000]Password timeout
+
+
+> [Di-klik lewat Macro Panel] password
+[10:30:17.630] [2648243]Password Correct
+
+> AT+CEREG?
+[10:30:22.068] AT+CEREG?
++CEREG: 0,2
+
+OK
+
+> AT+CEREG?
+[10:30:55.879] AT+CEREG?
++CEREG: 0,0
+
+OK
+
+> AT+CEREG?
+[10:31:00.845] AT+CEREG?
++CEREG: 0,0
+
+OK
+
+> AT+QNWINFO
+[10:31:20.048] AT+QNWINFO
++QNWINFO: No Service
+
+OK
+
+> AT+QENG="servingcell"
+[10:31:27.167] AT+QENG="servingcell"
++QENG: "servingcell","SEARCH"
+
+OK
+
+> AT+FDR1
+[10:33:41.565] 
+DRAGINO NB bootloader v1.3
+
+[System] Disconnected.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[Error] Connection Failed: BLE Exception: Device with address 48:87:2D:81:AA:86 was not found.
+[System] Berhasil dimuat. Auto-Save log sedang berjalan ('logs/session.log').
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 0 BLE devices.
+[System] Berhasil dimuat. Auto-Save log sedang berjalan ('logs/session.log').
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 0 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 1 BLE devices.
+[System] Keyboard Shortcut (F5) Ditekan - Pindai Alat
+[Scanning...] Looking for serial ports and BLE devices...
+[System] Found 4 USB and 2 BLE devices.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[System] Connection Established.
+[11:57:47.759] [5046253]Failed to activate PDP context
+[5046296]Successfully activated PDP context
+
+[11:57:49.678] [5048238]DNS configuration failed
+
+[11:57:53.762] [5052261]Resolving domain name...
+
+[11:57:56.792] [5055288]Domain name resolution failed
+
+[11:58:01.829] 5b 35 30 36 30 33 31 32 5d 44 6f 6d 61 69 6e 20 6e 61 6d 65 20 72 65 73 6f 6c 75 74 69 6f 6e 20 66 61 69 6c 65 64 0d 0a
+[11:58:06.841] [5065337]Domain name resolution failed
+
+[11:58:11.867] [5070362]Domain name resolution failed
+
+[11:58:16.892] [5075385]Domain name resolution failed
+
+[11:58:21.917] [5080407]Domain name resolution failed
+
+[11:58:26.926] [5085430]Domain name resolution failed
+
+[11:58:27.944] [5086468]Restart the module...
+[5086503]No response when shutting down
+
+[11:58:31.770] [5090233]Closing NB module...
+[5090266]NB module power-off successful.
+
+[11:58:31.890] 
+DRAGINO NB bootloader v1.3
+
+> [Di-klik lewat Macro Panel] password
+[System] Cannot send macro: Not connected.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[Error] Connection Failed: BLE Exception: Device with address 48:87:2D:81:AA:86 was not found.
+[System] Keyboard Shortcut (F6) Ditekan - Toggle Koneksi
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[Error] Connection Failed: BLE Exception: Device with address 48:87:2D:81:AA:86 was not found.
+[System] Keyboard Shortcut (F6) Ditekan - Toggle Koneksi
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[Error] Connection Failed: BLE Exception: Device with address 48:87:2D:81:AA:86 was not found.
+[System] Connecting to BLE 48:87:2D:81:AA:86...
+[Error] Connection Failed: BLE Exception: Device with address 48:87:2D:81:AA:86 was not found.

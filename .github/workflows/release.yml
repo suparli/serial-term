@@ -1,0 +1,73 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger build on version tags (e.g., v1.0.0)
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            artifact_name: serial-term-linux
+            asset_name: serial-term-linux
+          - os: windows-latest
+            artifact_name: serial-term-windows.exe
+            asset_name: serial-term.exe
+          - os: macos-latest
+            artifact_name: serial-term-macos
+            asset_name: serial-term-macos
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        pip install -r requirements.txt
+
+    - name: Build with PyInstaller
+      run: pyinstaller --name serial-term --onefile main.py
+
+    - name: Rename and Upload Artifact (Linux/macOS)
+      if: matrix.os != 'windows-latest'
+      run: |
+        mv dist/serial-term dist/${{ matrix.asset_name }}
+      
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.asset_name }}
+        path: dist/${{ matrix.asset_name }}
+
+  release:
+    name: Create Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/serial-term-linux/serial-term-linux
+            artifacts/serial-term.exe/serial-term.exe
+            artifacts/serial-term-macos/serial-term-macos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
